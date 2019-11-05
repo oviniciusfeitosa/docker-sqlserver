@@ -6,7 +6,7 @@ services:
     container_name: mssql
     volumes:
       # - docker-data:/var/opt/mssql # for mac
-      - ./docker-data:/var/opt/mssql # for linux
+      - ./database/docker-data:/var/opt/mssql # for linux
     ports:
       - "1433:1433"
     environment:
@@ -14,5 +14,3 @@ services:
       - SA_PASSWORD=root@Abcd11
       - MSSQL_PID=Developer
       - RESTAURAR_BACKUP=true
-      - GERAR_ESTRUTURA_E_DADOS=false
-      - MIGRAR_DADOS_COM_PYTHON=false

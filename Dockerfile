@@ -10,7 +10,7 @@ COPY docker-entrypoint-initdb.sh /usr/local/bin/
 
 COPY . /tmp/
 
-RUN chmod +x /usr/local/bin/docker-entrypoint.sh && chmod +x /usr/local/bin/docker-entrypoint-initdb.sh && chmod +x /tmp/migrate/main.py
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh && chmod +x /usr/local/bin/docker-entrypoint-initdb.sh
 
 WORKDIR "/tmp/"
 
