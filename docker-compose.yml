@@ -13,4 +13,4 @@ services:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=root@Abcd11
       - MSSQL_PID=Developer
-      - RESTAURAR_BACKUP=true
+      #- RESTAURAR_BACKUP=true
