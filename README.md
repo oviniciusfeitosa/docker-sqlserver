@@ -5,3 +5,7 @@ acordo com parâmetros informados.
 
 ## Restauração de backup
 - Acesse [aqui](./database/restore/Readme.md)
+
+
+#### Referência
+- [SALIC](https://github.com/culturagovbr/docker-salic-mssql/tree/master/schemas)
