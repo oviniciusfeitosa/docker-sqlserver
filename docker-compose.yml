@@ -2,6 +2,7 @@ version: '3.0'
 services:
   database-mssql:
     build: .
+    user: root
     image: vinnyfs89/mssql:1.0.0
     container_name: mssql
     volumes:
