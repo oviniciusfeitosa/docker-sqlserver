@@ -2,6 +2,10 @@
 Repositório com a responsibilidade de fornecer um container contendo SQLServer que permite restaurar o banco de dados de 
 acordo com parâmetros informados.
 
+## Requisitos
+- Docker
+- DockerCompose
+
 ## Como utilizar
 ```command
 docker-compose up -d
