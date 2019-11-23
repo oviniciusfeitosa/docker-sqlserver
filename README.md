@@ -26,3 +26,4 @@ Todos os arquivos que estiverem no formato `.bak` no diretório diretório `data
 ##### Referências
 - [SALIC](https://github.com/culturagovbr/docker-salic-mssql/tree/master/schemas)
 - [Docker Hub](https://hub.docker.com/_/microsoft-mssql-server)
+- [Commit Messages Convention (CMC)](https://github.com/devbrotherhood/cmc)
